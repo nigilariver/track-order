@@ -1,0 +1,24 @@
+{
+    "name": "riverstone/track-order",
+    "version": "1.0.0",
+    "description": "The Module allows admin and customers to track the shipped orders..",
+    "type": "magento2-module",
+    "require": {
+        "riverstone/module-core": "*"
+    },
+    "authors": [
+        {
+            "name": "Riverstone Technology Unlimited",
+            "email": "nigila@riverstonetech.in"
+        }
+    ],
+    "license": "MIT",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Riverstone\\TrackOrder\\": ""
+        }
+    }
+}
